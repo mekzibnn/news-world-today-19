@@ -1,28 +1,20 @@
 {
   "masthead": "THE WORLD TODAY \u2014 Thursday 19 November 2026",
   "subline": "Everything on this page happened, or was first reported, on Thursday 19 November 2026.",
-  "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of medium panels (4 + 5), dotted world map with numbered pins 1-12 beside 33 numbered briefs in 2 columns at 16px (briefs one line each, max 40 chars, so the brief words stay readable at 300px), UTC timeline strip, numbers strip (5 numbers), DATE CHECK footer, sources footer. Region counts sit under the map.",
+  "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of medium panels (5 + 5), dotted world map with numbered pins 1-13 beside 27 numbered briefs in 2 columns at 16px (briefs one line each, max 40 chars, so the brief words stay readable at 300px), numbers strip (6 numbers), DATE CHECK footer (8 items), sources footer. Region counts sit under the map. No timeline strip (dropped in v5: 9px text unreadable at 300px).",
   "proof_tags": "CONFIRMED / CLAIM / FORECAST tags on lead stories; claims attributed to sources.",
-  "timeline": [
-    "00:06 Riyadh downs Houthi drones",
-    "00:49 Tanker hit in Hormuz (UKMTO)",
-    "02:06 Crimea bridge closed after strike",
-    "04:27 Florida: 15 in of rain, rescues mount",
-    "04:45 Trump\u2013Xi meet in Shenzhen",
-    "06:30 Three-way talks at Kylin Villa",
-    "07:23 Akvan evacuations pass 80,000",
-    "09:00 ICJ: Myanmar guilty"
-  ],
+  "timeline": [],
   "numbers": [
     "$81.3bn Anthropic's record IPO, the largest ever",
     "17.07m GTA VI pre-orders (Sensor Tower)",
     "80,000+ Evacuated before Cyclone Akvan",
-    "15.32 in Rain near Plantation, Florida",
-    "730,000 Rohingya who fled Myanmar in 2017"
+    "109\u20130 Denmark backs the Arctic pact",
+    "4.9% Australia's jobless rate, highest since 2021",
+    "9\u20136 ICJ finds Myanmar guilty of genocide"
   ],
-  "min_body_px": 11.5,
+  "min_body_px": 12.5,
   "page_scroll_height": 1024,
-  "foot_bottom_px": 1010,
+  "foot_bottom_px": 978,
   "overflow": [],
   "audit": [
     {
@@ -35,128 +27,128 @@
     },
     {
       "id": "lead-1",
-      "sh": 178,
-      "ch": 178,
+      "sh": 186,
+      "ch": 186,
       "sw": 317,
       "cw": 317,
       "overflow": false
     },
     {
       "id": "lead-2",
-      "sh": 178,
-      "ch": 178,
+      "sh": 186,
+      "ch": 186,
       "sw": 317,
       "cw": 317,
       "overflow": false
     },
     {
       "id": "lead-3",
-      "sh": 178,
-      "ch": 178,
+      "sh": 186,
+      "ch": 186,
       "sw": 317,
       "cw": 317,
       "overflow": false
     },
     {
       "id": "story-4",
-      "sh": 149,
-      "ch": 149,
-      "sw": 235,
-      "cw": 235,
+      "sh": 156,
+      "ch": 156,
+      "sw": 186,
+      "cw": 186,
       "overflow": false
     },
     {
       "id": "story-5",
-      "sh": 149,
-      "ch": 149,
-      "sw": 235,
-      "cw": 235,
+      "sh": 156,
+      "ch": 156,
+      "sw": 186,
+      "cw": 186,
       "overflow": false
     },
     {
       "id": "story-6",
-      "sh": 149,
-      "ch": 149,
-      "sw": 235,
-      "cw": 235,
+      "sh": 156,
+      "ch": 156,
+      "sw": 186,
+      "cw": 186,
       "overflow": false
     },
     {
       "id": "story-7",
-      "sh": 149,
-      "ch": 149,
-      "sw": 235,
-      "cw": 235,
+      "sh": 156,
+      "ch": 156,
+      "sw": 186,
+      "cw": 186,
       "overflow": false
     },
     {
       "id": "story-8",
-      "sh": 148,
-      "ch": 148,
+      "sh": 156,
+      "ch": 156,
       "sw": 186,
       "cw": 186,
       "overflow": false
     },
     {
       "id": "story-9",
-      "sh": 148,
-      "ch": 148,
+      "sh": 169,
+      "ch": 169,
       "sw": 186,
       "cw": 186,
       "overflow": false
     },
     {
       "id": "story-10",
-      "sh": 148,
-      "ch": 148,
+      "sh": 169,
+      "ch": 169,
       "sw": 186,
       "cw": 186,
       "overflow": false
     },
     {
       "id": "story-11",
-      "sh": 148,
-      "ch": 148,
+      "sh": 169,
+      "ch": 169,
       "sw": 186,
       "cw": 186,
       "overflow": false
     },
     {
       "id": "story-12",
-      "sh": 148,
-      "ch": 148,
+      "sh": 169,
+      "ch": 169,
+      "sw": 186,
+      "cw": 186,
+      "overflow": false
+    },
+    {
+      "id": "story-13",
+      "sh": 169,
+      "ch": 169,
       "sw": 186,
       "cw": 186,
       "overflow": false
     },
     {
       "id": "briefs",
-      "sh": 306,
-      "ch": 306,
+      "sh": 259,
+      "ch": 259,
       "sw": 666,
       "cw": 666,
       "overflow": false
     },
     {
-      "id": "timeline",
-      "sh": 19,
-      "ch": 19,
-      "sw": 976,
-      "cw": 976,
-      "overflow": false
-    },
-    {
       "id": "numbers",
-      "sh": 34,
-      "ch": 34,
+      "sh": 49,
+      "ch": 49,
       "sw": 976,
       "cw": 976,
       "overflow": false
     },
     {
       "id": "datecheck",
-      "sh": 49,
-      "ch": 49,
+      "sh": 31,
+      "ch": 31,
       "sw": 972,
       "cw": 972,
       "overflow": false
@@ -170,5 +162,5 @@
       "overflow": false
     }
   ],
-  "legibility_note": "At 300px the 33 briefs are word-readable as distinct single lines (e.g. 'Atmospheric river floods California', 'Banxico publishes split-cut minutes', 'Tinubu reviews state police bill'); lead heads and deck text stay legible; panels read as flat illustrations with labels intact."
+  "legibility_note": "At 300px the 27 briefs are word-readable as distinct single lines (e.g. 'Atmospheric river floods California', 'Banxico publishes split-cut minutes', 'Kenya floods kill six'); lead heads and deck text stay legible; panels read as flat illustrations with labels intact."
 }

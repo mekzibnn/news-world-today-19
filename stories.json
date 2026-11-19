@@ -1,6 +1,6 @@
 [
  {
-  "deck": "Four-point Peace Declaration signed: UN reform, oil, ICC limits, nuclear talks. No Ukraine mention.",
+  "deck": "Four-point Peace Declaration: UN reform, oil, ICC limits, nuclear talks. No Ukraine mention.",
   "lat": 22.54,
   "lead": true,
   "lon": 114.06,
@@ -9,7 +9,7 @@
   "proof": "CONFIRMED",
   "region": "ASIA-PACIFIC",
   "section": "news",
-  "source": "XINHUA \u00b7 TIMES",
+  "source": "XINHUA · TIMES",
   "title": "Trump, Xi and Putin sign peace pact",
   "topic": "SUMMIT"
  },
@@ -21,10 +21,10 @@
   "n": 2,
   "panel": "gta-neon",
   "proof": "CONFIRMED",
-  "region": "WORLD",
+  "region": "THE AMERICAS",
   "section": "news",
-  "source": "FORBES \u00b7 FOX",
-  "title": "GTA VI is here \u2014 13 years in the making",
+  "source": "FORBES · FOX",
+  "title": "GTA VI is here — 13 years in the making",
   "topic": "GAMES"
  },
  {
@@ -37,7 +37,7 @@
   "proof": "CONFIRMED",
   "region": "THE AMERICAS",
   "section": "news",
-  "source": "REUTERS \u00b7 CNBC",
+  "source": "REUTERS · CNBC",
   "title": "Anthropic debuts in the biggest IPO ever",
   "topic": "MARKETS"
  },
@@ -51,12 +51,12 @@
   "proof": "CONFIRMED",
   "region": "EUROPE",
   "section": "news",
-  "source": "AP \u00b7 AL JAZEERA",
+  "source": "AP · AL JAZEERA",
   "title": "ICJ: Myanmar committed genocide",
   "topic": "JUSTICE"
  },
  {
-  "deck": "New drafts due today; 144 items disputed. $120bn a year by 2035.",
+  "deck": "New draft: 80 paragraphs, fossil refs and $120bn aid goal cut.",
   "lat": 36.9,
   "lead": true,
   "lon": 30.71,
@@ -65,12 +65,12 @@
   "proof": "CONFIRMED",
   "region": "MIDEAST",
   "section": "news",
-  "source": "TBS \u00b7 AXONEWS",
+  "source": "REUTERS · AFP",
   "title": "COP31 enters its final 48 hours",
   "topic": "CLIMATE"
  },
  {
-  "deck": "80,000 out, 200,000 targeted; landfall Friday noon, gusts 110 kmph.",
+  "deck": "80,000 out; landfall Friday noon, gusts 110 kmph.",
   "lat": 19.81,
   "lead": true,
   "lon": 85.83,
@@ -79,86 +79,72 @@
   "proof": "CONFIRMED",
   "region": "ASIA-PACIFIC",
   "section": "news",
-  "source": "IMD \u00b7 TIMES",
+  "source": "IMD · TIMES",
   "title": "Cyclone Akvan nears Odisha",
   "topic": "WEATHER"
  },
  {
-  "deck": "Floods hit Hollywood and Broward; 300+ rescues, I-95 shut.",
-  "lat": 26.01,
+  "deck": "Parliament approves Greenland security deal 109–0.",
+  "lat": 55.68,
   "lead": true,
-  "lon": -80.15,
+  "lon": 12.57,
   "n": 7,
-  "panel": "flood-street",
-  "proof": "CONFIRMED",
-  "region": "THE AMERICAS",
-  "section": "news",
-  "source": "CNN \u00b7 FLORIDA",
-  "title": "Florida floods after a foot of rain",
-  "topic": "WEATHER"
- },
- {
-  "deck": "US: 'doesn't seem appropriate'. Kyiv fears a deal behind its back.",
-  "lat": 50.45,
-  "lead": true,
-  "lon": 30.52,
-  "n": 8,
-  "panel": "empty-chair",
+  "panel": "arctic-pact",
   "proof": "CONFIRMED",
   "region": "EUROPE",
   "section": "news",
-  "source": "AP \u00b7 ANADOLU",
-  "title": "Ukraine kept off the summit agenda",
-  "topic": "SUMMIT"
+  "source": "AP",
+  "title": "Denmark backs Arctic pact with US",
+  "topic": "SECURITY"
  },
  {
-  "deck": "Kuwait, Bahrain air defences engaged; tanker hit in Hormuz.",
-  "lat": 26.57,
+  "deck": "Unemployment hits 4.9%, highest since 2021; 43,500 jobs lost.",
+  "lat": -35.28,
   "lead": true,
-  "lon": 56.25,
-  "n": 9,
-  "panel": "gulf-night",
+  "lon": 149.13,
+  "n": 8,
+  "panel": "jobless-chart",
   "proof": "CONFIRMED",
-  "region": "MIDEAST",
+  "region": "OCEANIA",
   "section": "news",
-  "source": "REUTERS \u00b7 BBC",
-  "title": "Iran strikes US bases in Kuwait, Bahrain",
-  "topic": "WAR"
+  "source": "ABS",
+  "title": "Australia's jobless rate hits 4.9%",
+  "topic": "ECONOMY"
  },
  {
-  "deck": "Debris fell, causing damage; Saudi Civil Defence says danger has passed.",
+  "deck": "Debris fell, causing damage; danger has passed, officials say.",
   "lat": 24.71,
   "lead": true,
   "lon": 46.68,
-  "n": 10,
+  "n": 9,
   "panel": "missile-intercept",
   "proof": "CONFIRMED",
   "region": "MIDEAST",
   "section": "news",
-  "source": "REUTERS \u00b7 SABA",
+  "source": "REUTERS · SABA",
   "title": "Houthi missile aimed at Riyadh",
   "topic": "WAR"
  },
  {
-  "deck": "Third strike in a week; traffic halted, damage assessed. Kyiv silent.",
+  "deck": "Third strike in a week; traffic halted. Kyiv silent.",
   "lat": 45.3,
   "lead": true,
   "lon": 36.5,
-  "n": 11,
+  "n": 10,
   "panel": "bridge-blast",
   "proof": "CONFIRMED",
   "region": "EUROPE",
   "section": "news",
-  "source": "H.UA \u00b7 AKSYONOV",
+  "source": "H.UA · AKSYONOV",
   "title": "Bridge to Crimea hit again overnight",
   "topic": "WAR"
  },
  {
-  "deck": "Two killed in lockdown unrest; Yunus's ancestral home torched in Chattogram.",
+  "deck": "Two killed in lockdown unrest; Yunus home torched.",
   "lat": 23.81,
   "lead": true,
   "lon": 90.41,
-  "n": 12,
+  "n": 11,
   "panel": "lockdown-street",
   "proof": "CONFIRMED",
   "region": "ASIA-PACIFIC",
@@ -168,13 +154,32 @@
   "topic": "UNREST"
  },
  {
-  "deck": "Strongest rain 2-5am Thursday; evacuation warnings in LA burn scars; SF record rain.",
-  "n": 13,
+  "deck": "Martial-law verdict partly overturned; retrial ordered.",
+  "lat": 37.57,
+  "lead": true,
+  "lon": 126.98,
+  "n": 12,
+  "panel": "seoul-court",
   "proof": "CONFIRMED",
-  "region": "THE AMERICAS",
+  "region": "ASIA-PACIFIC",
   "section": "news",
-  "source": "NWS \u00b7 ARCHYNEWSY",
-  "title": "Atmospheric river floods California"
+  "source": "AP · REUTERS",
+  "title": "Korea court overturns part of Han verdict",
+  "topic": "JUSTICE"
+ },
+ {
+  "deck": "Marches in five cities against the economic rescue bill.",
+  "lat": 4.71,
+  "lead": true,
+  "lon": -74.07,
+  "n": 13,
+  "panel": "march",
+  "proof": "CONFIRMED",
+  "region": "SOUTH AMERICA",
+  "section": "news",
+  "source": "INFOBAE",
+  "title": "Colombia unions strike in five cities",
+  "topic": "LABOUR"
  },
  {
   "deck": "China's leader offers the fund as the 21-economy summit closes in Shenzhen.",
@@ -191,89 +196,89 @@
   "proof": "CONFIRMED",
   "region": "THE AMERICAS",
   "section": "news",
-  "source": "BANXICO \u00b7 REUTERS",
+  "source": "BANXICO · REUTERS",
   "title": "Banxico publishes split-cut minutes"
  },
  {
-  "deck": "White House says the two countries will seek financing through military aid channels.",
+  "deck": "Parliament passes the asset-seizure law after 18 years of debate.",
   "n": 16,
   "proof": "CONFIRMED",
-  "region": "THE AMERICAS",
+  "region": "ASIA-PACIFIC",
   "section": "news",
-  "source": "WHITE HOUSE",
-  "title": "US, Philippines seek $2bn loan deal"
+  "source": "KOMPAS",
+  "title": "Jakarta asset law passes after 18 years"
  },
  {
-  "deck": "Ihor D'iu faces four counts over an alleged foreign-agent operation on staff.",
+  "deck": "IDF says the tank raid past the truce line is over.",
   "n": 17,
   "proof": "CONFIRMED",
-  "region": "THE AMERICAS",
+  "region": "MIDEAST",
   "section": "news",
-  "source": "DOJ \u00b7 H.UA",
-  "title": "US charges Russian in Palantir case"
+  "source": "BBC",
+  "title": "Gaza: Israel ends tank raid"
  },
  {
-  "deck": "OFAC adds an association and a network of firms and people to its list.",
+  "deck": "Parliament and Council agree to push methane rules to 2029.",
   "n": 18,
   "proof": "CONFIRMED",
-  "region": "THE AMERICAS",
+  "region": "EUROPE",
   "section": "news",
-  "source": "OFAC",
-  "title": "US sanctions 3 over Hezbollah links"
+  "source": "EURONEWS",
+  "title": "EU delays methane rules two years"
  },
  {
-  "deck": "Elimination status ends after 26 years as cases spread across states.",
+  "deck": "Final report: the yacht was vulnerable to strong wind.",
   "n": 19,
   "proof": "CONFIRMED",
-  "region": "THE AMERICAS",
+  "region": "EUROPE",
   "section": "news",
-  "source": "DUMPLING NEWS",
-  "title": "US loses measles-free status"
+  "source": "RNZ",
+  "title": "Bayesian vulnerable to wind: inquiry"
  },
  {
-  "deck": "El Salvador's leader confirms the strike on a Haitian gang boss's mansion.",
+  "deck": "Diallo and Tashima confirmed as candidates for March vote.",
   "n": 20,
   "proof": "CONFIRMED",
-  "region": "THE AMERICAS",
+  "region": "EUROPE",
   "section": "news",
-  "source": "GLOBAL CONFLICTS",
-  "title": "Bukele: strike hit gang chief's villa"
+  "source": "ABC",
+  "title": "Two rivals challenge FIFA's Infantino"
  },
  {
-  "deck": "An isolated group emerges in Maranhao state; officials urge no contact.",
+  "deck": "Italian author Corrado Augias dies aged 91.",
   "n": 21,
   "proof": "CONFIRMED",
-  "region": "THE AMERICAS",
+  "region": "EUROPE",
   "section": "news",
-  "source": "UPI \u00b7 STRAITS TIMES",
-  "title": "Awa's rare contact in Brazil"
+  "source": "EURONEWS",
+  "title": "Author Corrado Augias dies at 91"
  },
  {
-  "deck": "Brussels will not discuss long-term ties until London decides on reversal.",
+  "deck": "Somalia orders the UAE ambassador to leave within 72 hours.",
   "n": 22,
   "proof": "CONFIRMED",
-  "region": "EUROPE",
+  "region": "AFRICA",
   "section": "news",
-  "source": "DUMPLING NEWS",
-  "title": "EU halts UK talks until Brexit U-turn"
+  "source": "AL JAZEERA",
+  "title": "Mogadishu expels UAE ambassador"
  },
  {
-  "deck": "Fire devastates the French city hall; investigators treat it as arson.",
+  "deck": "South Africa's central bank holds its repo rate at 7.25%.",
   "n": 23,
   "proof": "CONFIRMED",
-  "region": "EUROPE",
+  "region": "AFRICA",
   "section": "news",
-  "source": "FRANCE 24",
-  "title": "Arson guts Limoges City Hall"
+  "source": "SABC",
+  "title": "Pretoria holds rate at 7.25%"
  },
  {
-  "deck": "US defence official leaves Brussels talks after criticising long-range strikes.",
+  "deck": "Floods shut Broward and Miami-Dade schools for a second day.",
   "n": 24,
   "proof": "CONFIRMED",
-  "region": "EUROPE",
+  "region": "THE AMERICAS",
   "section": "news",
-  "source": "H.UA",
-  "title": "Colby quits Ukraine meeting early"
+  "source": "CBS",
+  "title": "Florida floods shut Broward schools"
  },
  {
   "deck": "South Korea's college exam runs under strict curbs after an AI cheating scandal.",
@@ -285,17 +290,107 @@
   "title": "Suneung exam under AI-cheat curbs"
  },
  {
-  "deck": "Petrol and diesel down Rs3 a litre from today under the regulator's notice.",
+  "deck": "Court: pay equity cuts broke New Zealand's rights law.",
   "n": 26,
+  "proof": "CONFIRMED",
+  "region": "OCEANIA",
+  "section": "news",
+  "source": "RNZ",
+  "title": "NZ: pay equity cuts broke rights law"
+ },
+ {
+  "deck": "A 27-day drought emergency takes effect in Tonga.",
+  "n": 27,
+  "proof": "CONFIRMED",
+  "region": "OCEANIA",
+  "section": "news",
+  "source": "RNZ",
+  "title": "Tonga drought emergency takes effect"
+ },
+ {
+  "deck": "Kenya's Peres Jepchirchir gets a three-year doping ban.",
+  "n": 28,
+  "proof": "CONFIRMED",
+  "region": "AFRICA",
+  "section": "news",
+  "source": "ABC",
+  "title": "Marathon champion banned for doping"
+ },
+ {
+  "deck": "Xi urges a ban on all nuclear arms at the summit.",
+  "n": 29,
   "proof": "CONFIRMED",
   "region": "ASIA-PACIFIC",
   "section": "news",
-  "source": "OGRA \u00b7 ROUNDUP",
-  "title": "Pakistan cuts petrol to Rs322"
+  "source": "AL JAZEERA",
+  "title": "Xi urges ban on all nuclear arms"
+ },
+ {
+  "deck": "Albanese to Putin: 'End your war, end it now.'",
+  "n": 30,
+  "proof": "CONFIRMED",
+  "region": "OCEANIA",
+  "section": "news",
+  "source": "ABC",
+  "title": "Albanese to Putin: end your war"
+ },
+ {
+  "deck": "Red Cross counts six dead, 1,141 households hit.",
+  "n": 31,
+  "proof": "CONFIRMED",
+  "region": "AFRICA",
+  "section": "news",
+  "source": "NATION",
+  "title": "Kenya floods kill six"
+ },
+ {
+  "deck": "Heaviest rain moves south Thursday; LA burn-scar evacuation warnings in force.",
+  "n": 32,
+  "proof": "CONFIRMED",
+  "region": "THE AMERICAS",
+  "section": "news",
+  "source": "NWS",
+  "title": "Atmospheric river floods California"
+ },
+ {
+  "deck": "Xi tells the US to do the 'right thing' on Taiwan.",
+  "n": 33,
+  "proof": "CONFIRMED",
+  "region": "ASIA-PACIFIC",
+  "section": "news",
+  "source": "REUTERS",
+  "title": "Xi: US must do 'right thing' on Taiwan"
+ },
+ {
+  "deck": "Trump says the US will 'see what happens' on Iran after January 1.",
+  "n": 34,
+  "proof": "CONFIRMED",
+  "region": "MIDEAST",
+  "section": "news",
+  "source": "REUTERS",
+  "title": "Trump: 'see what happens' on Iran"
+ },
+ {
+  "deck": "Interior minister: hoax wave aimed to destabilise Italy.",
+  "n": 35,
+  "proof": "CONFIRMED",
+  "region": "EUROPE",
+  "section": "news",
+  "source": "REUTERS",
+  "title": "Italy hoax wave aimed to destabilise"
+ },
+ {
+  "deck": "Dozens missing after a migrant boat capsizes off Senegal; ~50 aboard.",
+  "n": 36,
+  "proof": "CONFIRMED",
+  "region": "AFRICA",
+  "section": "news",
+  "source": "REUTERS",
+  "title": "Migrant boat capsizes off Senegal"
  },
  {
   "deck": "Foreign and defence ministers meet; security ties top the agenda.",
-  "n": 27,
+  "n": 37,
   "proof": "CONFIRMED",
   "region": "ASIA-PACIFIC",
   "section": "news",
@@ -303,417 +398,102 @@
   "title": "India, Japan hold 2+2 defence talks"
  },
  {
-  "deck": "Indian minister says 1,600 developers in Bengaluru worked on the game.",
-  "n": 28,
-  "proof": "CLAIM",
-  "region": "ASIA-PACIFIC",
-  "section": "news",
-  "source": "INDIA TODAY",
-  "title": "1,600 Bengaluru devs built GTA VI"
- },
- {
-  "deck": "Bulk Scotch imports hit with a 162.5% duty despite the UK trade pact.",
-  "n": 29,
-  "proof": "CONFIRMED",
-  "region": "ASIA-PACIFIC",
-  "section": "news",
-  "source": "NEWS PARTNER",
-  "title": "India puts 162.5% duty on Scotch"
- },
- {
-  "deck": "Goldman Sachs lifts India as domestic airlines trim capacity.",
-  "n": 30,
-  "proof": "CONFIRMED",
-  "region": "ASIA-PACIFIC",
-  "section": "news",
-  "source": "NEWS PARTNER",
-  "title": "Goldman upgrades India to overweight"
- },
- {
-  "deck": "P.V. Sindhu returns to the badminton top five; Lakshya Sen enters top 10.",
-  "n": 31,
-  "proof": "CONFIRMED",
-  "region": "ASIA-PACIFIC",
-  "section": "news",
-  "source": "NEWS PARTNER",
-  "title": "Sindhu back in world top five"
- },
- {
-  "deck": "Fund forecasts 7.3% UAE growth next year, with non-oil GDP up 5.4%.",
-  "n": 32,
-  "proof": "CONFIRMED",
-  "region": "MIDEAST",
-  "section": "news",
-  "source": "IMF \u00b7 KHALEEJ TIMES",
-  "title": "IMF: UAE economy to grow 7.3% in 2027"
- },
- {
-  "deck": "Khartoum says it has evidence of four drone attacks launched from Ethiopia.",
-  "n": 33,
-  "proof": "CLAIM",
-  "region": "AFRICA",
-  "section": "news",
-  "source": "AL JAZEERA",
-  "title": "Sudan blames Ethiopia, UAE for drones"
- },
- {
-  "deck": "Nigeria's president begins constitutional review of the state police bill.",
-  "n": 34,
-  "proof": "CONFIRMED",
-  "region": "AFRICA",
-  "section": "news",
-  "source": "NIGERIA BRIEFING",
-  "title": "Tinubu reviews state police bill"
- },
- {
-  "deck": "Nine countries secure qualification for the 2027 Africa Cup of Nations.",
-  "n": 35,
-  "proof": "CONFIRMED",
-  "region": "AFRICA",
-  "section": "news",
-  "source": "NIGFOOTY",
-  "title": "Nine teams book AFCON 2027 places"
- },
- {
-  "deck": "Airline alerts ShebaMiles members after a cyberattack on its systems.",
-  "n": 36,
-  "proof": "CONFIRMED",
-  "region": "AFRICA",
-  "section": "news",
-  "source": "NIGERIA BRIEFING",
-  "title": "Ethiopian Air warns of data breach"
- },
- {
-  "deck": "Direct flights between Egypt and Syria set to restart after 14 years.",
-  "n": 37,
-  "proof": "CONFIRMED",
-  "region": "AFRICA",
-  "section": "news",
-  "source": "NIGERIA BRIEFING",
-  "title": "Egypt, Syria resume flights"
- },
- {
-  "deck": "Kenya moves closer to naming its crude ahead of first oil production.",
+  "deck": "Australia's Ash Barty is elected to the tennis hall of fame.",
   "n": 38,
-  "proof": "CONFIRMED",
-  "region": "AFRICA",
-  "section": "news",
-  "source": "NIGERIA BRIEFING",
-  "title": "Kenya nears naming first crude oil"
- },
- {
-  "deck": "Australia's Ash Barty is inducted into the tennis hall of fame.",
-  "n": 39,
   "proof": "CONFIRMED",
   "region": "OCEANIA",
   "section": "news",
   "source": "ABC NEWS",
-  "title": "Ash Barty enters hall of fame"
- },
- {
-  "deck": "The First Test between India and New Zealand starts in Wellington.",
-  "n": 40,
-  "proof": "CONFIRMED",
-  "region": "OCEANIA",
-  "section": "news",
-  "source": "NEWS PARTNER",
-  "title": "India-NZ Test begins in Wellington"
+  "title": "Ash Barty elected to hall of fame"
  },
  {
   "deck": "Energy Agency calls the Middle East crisis the largest threat in history.",
-  "n": 41,
+  "n": 39,
   "proof": "CONFIRMED",
   "region": "WORLD",
   "section": "news",
-  "source": "IEA \u00b7 FRANCE 24",
+  "source": "IEA · FRANCE 24",
   "title": "IEA: Gulf war tops energy threat list"
  },
  {
   "deck": "UNFPA finds one in four women cannot refuse sex within marriage.",
-  "n": 42,
+  "n": 40,
   "proof": "CONFIRMED",
   "region": "WORLD",
   "section": "news",
-  "source": "UNFPA \u00b7 GUARDIAN",
+  "source": "UNFPA · GUARDIAN",
   "title": "1 in 4 women can't refuse sex: UN"
  },
  {
-  "deck": "A UN report finds almost one in four children live in conflict zones.",
-  "n": 43,
-  "proof": "CONFIRMED",
-  "region": "WORLD",
-  "section": "news",
-  "source": "UN \u00b7 DW",
-  "title": "1 in 4 children live in conflict zones"
- },
- {
-  "deck": "A UN-backed report warns chemicals in toys and clothes pose a health threat.",
-  "n": 44,
-  "proof": "CONFIRMED",
-  "region": "WORLD",
-  "section": "news",
-  "source": "UN \u00b7 DUMPLING NEWS",
-  "title": "Everyday chemicals 'a health threat'"
- },
- {
-  "deck": "Weaponisation of aid against children surged 16-fold, an analysis finds.",
-  "n": 45,
-  "proof": "CONFIRMED",
-  "region": "WORLD",
-  "section": "news",
-  "source": "DUMPLING NEWS",
-  "title": "Aid denial vs children up 16-fold"
- },
- {
-  "deck": "First reported Wednesday 18 November \u2014 left out.",
+  "deck": "First reported Saturday 14 Nov — left out. Claim unverified.",
   "n": 101,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
   "section": "date-check",
-  "source": "Wire reports",
-  "title": "Hegseth's Venezuela deal"
+  "source": "AL JAZEERA",
+  "title": "Hormuz 5 tankers ablaze"
  },
  {
-  "deck": "First reported Wednesday 18 November \u2014 left out.",
+  "deck": "First reported Wednesday 18 Nov — left out. Strike overnight 17–18 Nov.",
   "n": 102,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
   "section": "date-check",
-  "source": "Wire reports",
-  "title": "Van Gogh $190.4m sale"
+  "source": "EURONEWS",
+  "title": "Krasnodar refineries hit"
  },
  {
-  "deck": "First reported Wednesday 18 November \u2014 left out.",
+  "deck": "First reported Wednesday 18 Nov — left out. Second sentence; first July 2026.",
   "n": 103,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
   "section": "date-check",
-  "source": "Wire reports",
-  "title": "Gaza Yellow Line crossing"
+  "source": "AP",
+  "title": "Hemedti death sentence"
  },
  {
-  "deck": "First reported Wednesday 18 November \u2014 left out.",
+  "deck": "First reported Tuesday 17 Nov — left out. 1–15 Nov total.",
   "n": 104,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
   "section": "date-check",
-  "source": "Wire reports",
-  "title": "M\u00e9lenchon 'could win'"
+  "source": "AP",
+  "title": "Canaries 11,037 migrants"
  },
  {
-  "deck": "First reported Wednesday 18 November \u2014 left out.",
+  "deck": "First reported Wednesday 18 Nov — left out. Weakened from Cat 5.",
   "n": 105,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
   "section": "date-check",
-  "source": "Wire reports",
-  "title": "Australia settler sanctions"
+  "source": "RNZ",
+  "title": "Cyclone Xavier weakens to Cat 4"
  },
  {
-  "deck": "First reported Wednesday 18 November \u2014 left out.",
+  "deck": "Published Wednesday 18 Nov in Nature — left out.",
   "n": 106,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
   "section": "date-check",
-  "source": "Wire reports",
-  "title": "Libya Derna seizure"
+  "source": "NATURE",
+  "title": "Red giant Bao merger"
  },
  {
-  "deck": "First reported Wednesday 18 November \u2014 left out.",
+  "deck": "Wrong claim: only part of the verdict overturned; retrial ordered.",
   "n": 107,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
   "section": "date-check",
-  "source": "Wire reports",
-  "title": "Voyager 1 light-day"
+  "source": "AP · REUTERS",
+  "title": "Han Duck-soo NOT cleared"
  },
  {
-  "deck": "First reported Wednesday 18 November \u2014 left out.",
+  "deck": "Wrong number: marches in five cities, not three.",
   "n": 108,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
   "section": "date-check",
-  "source": "Wire reports",
-  "title": "Jeffries 251\u201311"
- },
- {
-  "deck": "First reported Wednesday 18 November \u2014 left out.",
-  "n": 109,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Wire reports",
-  "title": "Pew Islam-by-2035"
- },
- {
-  "deck": "First reported Wednesday 18 November \u2014 left out.",
-  "n": 110,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Wire reports",
-  "title": "EU \u20ac45bn Ukraine loan"
- },
- {
-  "deck": "First reported Wednesday 18 November \u2014 left out.",
-  "n": 111,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Reuters \u00b7 IAEA",
-  "title": "IAEA Yongbyon enrichment"
- },
- {
-  "deck": "First reported Tuesday 17 November - left out. Real $582m, not $682m.",
-  "n": 112,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "FT \u00b7 Reuters",
-  "title": "Deutsche Bank leak"
- },
- {
-  "deck": "First reported Monday 16 November \u2014 left out.",
-  "n": 113,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Fox News",
-  "title": "Vance: no forever war"
- },
- {
-  "deck": "Published Wednesday 4 November \u2014 left out.",
-  "n": 114,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Nature",
-  "title": "Great Unconformity study"
- },
- {
-  "deck": "First reported Wednesday 18 November - left out.",
-  "n": 115,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Reuters \u00b7 AsiaOne",
-  "title": "Saudi all-clear in Jazan"
- },
- {
-  "deck": "First reported Tuesday 17 November - left out.",
-  "n": 116,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Somali Today \u00b7 Dawan",
-  "title": "Somalia accuses UAE of bases"
- },
- {
-  "deck": "First reported Wednesday 18 November - left out.",
-  "n": 117,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Reuters \u00b7 WNCY",
-  "title": "AI cyber senators warn"
- },
- {
-  "deck": "First reported 17-18 November - left out.",
-  "n": 118,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Reuters \u00b7 Al Jazeera",
-  "title": "Carney-China right deal"
- },
- {
-  "deck": "First reported Wednesday 18 November - left out.",
-  "n": 119,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "People \u00b7 BBC",
-  "title": "Modi meets Prince and Princess of Wales"
- },
- {
-  "deck": "First reported Tuesday 17 November - left out.",
-  "n": 120,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "About Amazon \u00b7 Hindu BusinessLine",
-  "title": "Amazon $7bn India renewables"
- },
- {
-  "deck": "First reported Wednesday 18 November - left out.",
-  "n": 121,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Cricinfo \u00b7 Reuters",
-  "title": "Duckett 133 seals ODI series"
- },
- {
-  "deck": "First reported Wednesday 18 November - left out.",
-  "n": 122,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "EIN \u00b7 Barbados Gazette",
-  "title": "Six French ISIL men jailed in Iraq"
- },
- {
-  "deck": "First reported Wednesday 18 November - left out.",
-  "n": 123,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Reuters \u00b7 TankTerminals",
-  "title": "Bapco refinery back above 80%"
- },
- {
-  "deck": "First reported 9-12 November - left out.",
-  "n": 124,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Reuters \u00b7 Jareeda",
-  "title": "Gulf leaders urge Trump restraint"
- },
- {
-  "deck": "Wrong name: Rep. Ted Lieu, elected Wednesday 18 November - left out.",
-  "n": 125,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Asian American Foundation",
-  "title": "Lieu elected, not Lu Yuming"
- },
- {
-  "deck": "Decree signed Saturday 31 October, reported 1-2 November - left out.",
-  "n": 126,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Al Jazeera \u00b7 DW",
-  "title": "Bolivia El Nino emergency"
- },
- {
-  "deck": "Wrong number: ~80,000+ evacuated by 19 Nov morning; 200,000 was the 17 Nov target.",
-  "n": 127,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Times Reading \u00b7 Hindu BusinessLine",
-  "title": "Akvan 200,000 evacuated"
- },
- {
-  "deck": "Stale number: 15.9m is the 17 Nov reading; 18 Nov reading is 17.07m.",
-  "n": 128,
-  "proof": "CONFIRMED",
-  "region": "DATE CHECK",
-  "section": "date-check",
-  "source": "Reuters \u00b7 Forbes",
-  "title": "GTA 15.9m pre-orders"
+  "source": "INFOBAE",
+  "title": "Colombia strike in 5 cities"
  }
 ]
