@@ -1,7 +1,7 @@
 {
   "masthead": "THE WORLD TODAY \u2014 Thursday 19 November 2026",
   "subline": "Everything on this page happened, or was first reported, on Thursday 19 November 2026.",
-  "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of 4 medium panels, dotted world map with numbered pins 1-11 beside 33 numbered briefs in 2 columns at 16px (briefs one line each, max 40 chars, so the brief words stay readable at 300px), UTC timeline strip, numbers strip (5 numbers), DATE CHECK footer, sources footer. Region counts sit under the map.",
+  "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of medium panels (4 + 5), dotted world map with numbered pins 1-12 beside 33 numbered briefs in 2 columns at 16px (briefs one line each, max 40 chars, so the brief words stay readable at 300px), UTC timeline strip, numbers strip (5 numbers), DATE CHECK footer, sources footer. Region counts sit under the map.",
   "proof_tags": "CONFIRMED / CLAIM / FORECAST tags on lead stories; claims attributed to sources.",
   "timeline": [
     "00:06 Riyadh downs Houthi drones",
@@ -22,7 +22,7 @@
   ],
   "min_body_px": 11.5,
   "page_scroll_height": 1024,
-  "foot_bottom_px": 1019,
+  "foot_bottom_px": 1004,
   "overflow": [],
   "audit": [
     {
@@ -91,34 +91,42 @@
     },
     {
       "id": "story-8",
-      "sh": 149,
-      "ch": 149,
-      "sw": 235,
-      "cw": 235,
+      "sh": 148,
+      "ch": 148,
+      "sw": 186,
+      "cw": 186,
       "overflow": false
     },
     {
       "id": "story-9",
-      "sh": 149,
-      "ch": 149,
-      "sw": 235,
-      "cw": 235,
+      "sh": 148,
+      "ch": 148,
+      "sw": 186,
+      "cw": 186,
       "overflow": false
     },
     {
       "id": "story-10",
-      "sh": 149,
-      "ch": 149,
-      "sw": 235,
-      "cw": 235,
+      "sh": 148,
+      "ch": 148,
+      "sw": 186,
+      "cw": 186,
       "overflow": false
     },
     {
       "id": "story-11",
-      "sh": 149,
-      "ch": 149,
-      "sw": 235,
-      "cw": 235,
+      "sh": 148,
+      "ch": 148,
+      "sw": 186,
+      "cw": 186,
+      "overflow": false
+    },
+    {
+      "id": "story-12",
+      "sh": 148,
+      "ch": 148,
+      "sw": 186,
+      "cw": 186,
       "overflow": false
     },
     {

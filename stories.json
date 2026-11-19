@@ -154,8 +154,22 @@
   "topic": "WAR"
  },
  {
-  "deck": "APEC leaders set to adopt the joint text by consensus; trade, AI and digital rules inside.",
+  "deck": "Two killed in lockdown unrest; Yunus's ancestral home torched in Chattogram.",
+  "lat": 23.81,
+  "lead": true,
+  "lon": 90.41,
   "n": 12,
+  "panel": "lockdown-street",
+  "proof": "CONFIRMED",
+  "region": "ASIA-PACIFIC",
+  "section": "news",
+  "source": "REUTERS",
+  "title": "Awami League lockdown shuts Bangladesh",
+  "topic": "UNREST"
+ },
+ {
+  "deck": "APEC leaders set to adopt the joint text by consensus; trade, AI and digital rules inside.",
+  "n": 13,
   "proof": "FORECAST",
   "region": "ASIA-PACIFIC",
   "section": "news",
@@ -164,7 +178,7 @@
  },
  {
   "deck": "China's leader offers the fund as the 21-economy summit closes in Shenzhen.",
-  "n": 13,
+  "n": 14,
   "proof": "CONFIRMED",
   "region": "ASIA-PACIFIC",
   "section": "news",
@@ -173,7 +187,7 @@
  },
  {
   "deck": "Minutes of the 3-2 vote to cut to 6.25% land today; dissenters warned on inflation.",
-  "n": 14,
+  "n": 15,
   "proof": "CONFIRMED",
   "region": "THE AMERICAS",
   "section": "news",
@@ -182,7 +196,7 @@
  },
  {
   "deck": "White House says the two countries will seek financing through military aid channels.",
-  "n": 15,
+  "n": 16,
   "proof": "CONFIRMED",
   "region": "THE AMERICAS",
   "section": "news",
@@ -191,7 +205,7 @@
  },
  {
   "deck": "Ihor D'iu faces four counts over an alleged foreign-agent operation on staff.",
-  "n": 16,
+  "n": 17,
   "proof": "CONFIRMED",
   "region": "THE AMERICAS",
   "section": "news",
@@ -200,7 +214,7 @@
  },
  {
   "deck": "OFAC adds an association and a network of firms and people to its list.",
-  "n": 17,
+  "n": 18,
   "proof": "CONFIRMED",
   "region": "THE AMERICAS",
   "section": "news",
@@ -209,7 +223,7 @@
  },
  {
   "deck": "Elimination status ends after 26 years as cases spread across states.",
-  "n": 18,
+  "n": 19,
   "proof": "CONFIRMED",
   "region": "THE AMERICAS",
   "section": "news",
@@ -218,7 +232,7 @@
  },
  {
   "deck": "El Salvador's leader confirms the strike on a Haitian gang boss's mansion.",
-  "n": 19,
+  "n": 20,
   "proof": "CONFIRMED",
   "region": "THE AMERICAS",
   "section": "news",
@@ -227,7 +241,7 @@
  },
  {
   "deck": "An isolated group emerges in Maranhao state; officials urge no contact.",
-  "n": 20,
+  "n": 21,
   "proof": "CONFIRMED",
   "region": "THE AMERICAS",
   "section": "news",
@@ -236,7 +250,7 @@
  },
  {
   "deck": "Brussels will not discuss long-term ties until London decides on reversal.",
-  "n": 21,
+  "n": 22,
   "proof": "CONFIRMED",
   "region": "EUROPE",
   "section": "news",
@@ -245,7 +259,7 @@
  },
  {
   "deck": "Fire devastates the French city hall; investigators treat it as arson.",
-  "n": 22,
+  "n": 23,
   "proof": "CONFIRMED",
   "region": "EUROPE",
   "section": "news",
@@ -254,7 +268,7 @@
  },
  {
   "deck": "US defence official leaves Brussels talks after criticising long-range strikes.",
-  "n": 23,
+  "n": 24,
   "proof": "CONFIRMED",
   "region": "EUROPE",
   "section": "news",
@@ -263,7 +277,7 @@
  },
  {
   "deck": "South Korea's college exam runs under strict curbs after an AI cheating scandal.",
-  "n": 24,
+  "n": 25,
   "proof": "CONFIRMED",
   "region": "ASIA-PACIFIC",
   "section": "news",
@@ -272,7 +286,7 @@
  },
  {
   "deck": "Petrol and diesel down Rs3 a litre from today under the regulator's notice.",
-  "n": 25,
+  "n": 26,
   "proof": "CONFIRMED",
   "region": "ASIA-PACIFIC",
   "section": "news",
@@ -281,7 +295,7 @@
  },
  {
   "deck": "Foreign and defence ministers meet; security ties top the agenda.",
-  "n": 26,
+  "n": 27,
   "proof": "CONFIRMED",
   "region": "ASIA-PACIFIC",
   "section": "news",
@@ -290,7 +304,7 @@
  },
  {
   "deck": "Indian minister says 1,600 developers in Bengaluru worked on the game.",
-  "n": 27,
+  "n": 28,
   "proof": "CLAIM",
   "region": "ASIA-PACIFIC",
   "section": "news",
@@ -299,7 +313,7 @@
  },
  {
   "deck": "Bulk Scotch imports hit with a 162.5% duty despite the UK trade pact.",
-  "n": 28,
+  "n": 29,
   "proof": "CONFIRMED",
   "region": "ASIA-PACIFIC",
   "section": "news",
@@ -308,7 +322,7 @@
  },
  {
   "deck": "Goldman Sachs lifts India as domestic airlines trim capacity.",
-  "n": 29,
+  "n": 30,
   "proof": "CONFIRMED",
   "region": "ASIA-PACIFIC",
   "section": "news",
@@ -317,7 +331,7 @@
  },
  {
   "deck": "P.V. Sindhu returns to the badminton top five; Lakshya Sen enters top 10.",
-  "n": 30,
+  "n": 31,
   "proof": "CONFIRMED",
   "region": "ASIA-PACIFIC",
   "section": "news",
@@ -326,7 +340,7 @@
  },
  {
   "deck": "Fund forecasts 7.3% UAE growth next year, with non-oil GDP up 5.4%.",
-  "n": 31,
+  "n": 32,
   "proof": "CONFIRMED",
   "region": "MIDEAST",
   "section": "news",
@@ -335,7 +349,7 @@
  },
  {
   "deck": "Khartoum says it has evidence of four drone attacks launched from Ethiopia.",
-  "n": 32,
+  "n": 33,
   "proof": "CLAIM",
   "region": "AFRICA",
   "section": "news",
@@ -344,7 +358,7 @@
  },
  {
   "deck": "Nigeria's president begins constitutional review of the state police bill.",
-  "n": 33,
+  "n": 34,
   "proof": "CONFIRMED",
   "region": "AFRICA",
   "section": "news",
@@ -353,7 +367,7 @@
  },
  {
   "deck": "Nine countries secure qualification for the 2027 Africa Cup of Nations.",
-  "n": 34,
+  "n": 35,
   "proof": "CONFIRMED",
   "region": "AFRICA",
   "section": "news",
@@ -362,7 +376,7 @@
  },
  {
   "deck": "Airline alerts ShebaMiles members after a cyberattack on its systems.",
-  "n": 35,
+  "n": 36,
   "proof": "CONFIRMED",
   "region": "AFRICA",
   "section": "news",
@@ -371,7 +385,7 @@
  },
  {
   "deck": "Direct flights between Egypt and Syria set to restart after 14 years.",
-  "n": 36,
+  "n": 37,
   "proof": "CONFIRMED",
   "region": "AFRICA",
   "section": "news",
@@ -380,7 +394,7 @@
  },
  {
   "deck": "Kenya moves closer to naming its crude ahead of first oil production.",
-  "n": 37,
+  "n": 38,
   "proof": "CONFIRMED",
   "region": "AFRICA",
   "section": "news",
@@ -389,7 +403,7 @@
  },
  {
   "deck": "Australia's Ash Barty is inducted into the tennis hall of fame.",
-  "n": 38,
+  "n": 39,
   "proof": "CONFIRMED",
   "region": "OCEANIA",
   "section": "news",
@@ -398,7 +412,7 @@
  },
  {
   "deck": "The First Test between India and New Zealand starts in Wellington.",
-  "n": 39,
+  "n": 40,
   "proof": "CONFIRMED",
   "region": "OCEANIA",
   "section": "news",
@@ -407,7 +421,7 @@
  },
  {
   "deck": "Energy Agency calls the Middle East crisis the largest threat in history.",
-  "n": 40,
+  "n": 41,
   "proof": "CONFIRMED",
   "region": "WORLD",
   "section": "news",
@@ -416,7 +430,7 @@
  },
  {
   "deck": "UNFPA finds one in four women cannot refuse sex within marriage.",
-  "n": 41,
+  "n": 42,
   "proof": "CONFIRMED",
   "region": "WORLD",
   "section": "news",
@@ -425,7 +439,7 @@
  },
  {
   "deck": "A UN report finds almost one in four children live in conflict zones.",
-  "n": 42,
+  "n": 43,
   "proof": "CONFIRMED",
   "region": "WORLD",
   "section": "news",
@@ -434,7 +448,7 @@
  },
  {
   "deck": "A UN-backed report warns chemicals in toys and clothes pose a health threat.",
-  "n": 43,
+  "n": 44,
   "proof": "CONFIRMED",
   "region": "WORLD",
   "section": "news",
@@ -443,7 +457,7 @@
  },
  {
   "deck": "Weaponisation of aid against children surged 16-fold, an analysis finds.",
-  "n": 44,
+  "n": 45,
   "proof": "CONFIRMED",
   "region": "WORLD",
   "section": "news",

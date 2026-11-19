@@ -9,11 +9,12 @@ entry.png, which the kit explicitly sanctions. This script:
      writes render_spec.json (min_body_px, overflow list, layout metadata).
 
 Adapted from the 18 Nov v4 entry (mock 96.24%): same layout — navy
-masthead, 3 large lead panels, 2 rows of 4 medium panels, dotted world
-map with numbered pins 1-11 beside numbered briefs at 16px, UTC timeline
+masthead, 3 large lead panels, 2 rows of medium panels (4 + 5), dotted world
+map with numbered pins 1-12 beside numbered briefs at 16px, UTC timeline
 strip, numbers strip, DATE CHECK footer, sources footer. Differences:
-46 stories (35 briefs, 2 more rows than v4's 32), tighter spacing
-(brief line-height 1.12, smaller masthead, 3px gaps) to stay in budget.
+45 stories (33 briefs, 12 leads — Bangladesh unrest added as lead 12),
+tighter spacing (brief line-height 1.12, smaller masthead, 3px gaps) to
+stay in budget.
 
 Usage: python3 render.py   (run from the repo dir)
 """
@@ -57,8 +58,9 @@ def map_svg(pins):
         for c in range(c0, c1 + 1):
             dots.append(f'<circle cx="{c * CW + CW / 2:.1f}" cy="{r * CH + CH / 2:.1f}" r="1.5" fill="#8a9a8b"/>')
     # Pin offsets to separate near neighbours: 2 New York vs 7 Florida,
-    # 8 Kyiv vs 5 Antalya vs 11 Crimea, 9 Hormuz vs 10 Riyadh.
-    offsets = {2: (12, -8), 7: (-12, 8), 8: (0, -11), 9: (-11, -9), 10: (11, 9), 11: (13, 6)}
+    # 8 Kyiv vs 5 Antalya vs 11 Crimea, 9 Hormuz vs 10 Riyadh, 12 Dhaka
+    # vs 6 Odisha and 1 Shenzhen.
+    offsets = {2: (12, -8), 7: (-12, 8), 8: (0, -11), 9: (-11, -9), 10: (11, 9), 11: (13, 6), 12: (10, -14)}
     pin_els = []
     for n, lon, lat in pins:
         x = (lon + 180) / 360 * W
@@ -196,13 +198,25 @@ def panel(kind):
 <circle cx="150" cy="24" r="12" fill="#ff5e3a"/><circle cx="138" cy="28" r="8" fill="#e8a13c"/><circle cx="162" cy="28" r="8" fill="#ffb03a"/>
 <circle cx="150" cy="12" r="7" fill="#8a97a8"/><circle cx="164" cy="8" r="5" fill="#8a97a8"/>
 <rect x="10" y="6" width="104" height="18" fill="#10263f"/><text x="62" y="19" font-size="10" fill="#fff" text-anchor="middle" {S}>3RD STRIKE</text></svg>'''
+    if kind == "lockdown-street":
+        return f'''<svg viewBox="0 0 300 62" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="62" fill="#2b3a4a"/>
+<rect x="14" y="18" width="24" height="44" fill="#1d2836"/><rect x="44" y="10" width="20" height="52" fill="#1d2836"/>
+<rect x="240" y="14" width="22" height="48" fill="#1d2836"/><rect x="268" y="22" width="18" height="40" fill="#1d2836"/>
+<rect x="0" y="40" width="300" height="22" fill="#232f3d"/>
+<g><rect x="104" y="34" width="92" height="12" fill="#e8c85a"/>
+<rect x="112" y="34" width="8" height="12" fill="#1a1a1a"/><rect x="128" y="34" width="8" height="12" fill="#1a1a1a"/>
+<rect x="144" y="34" width="8" height="12" fill="#1a1a1a"/><rect x="160" y="34" width="8" height="12" fill="#1a1a1a"/>
+<rect x="176" y="34" width="8" height="12" fill="#1a1a1a"/></g>
+<circle cx="212" cy="30" r="9" fill="#ff5e3a"/><circle cx="218" cy="25" r="6" fill="#e8a13c"/><circle cx="208" cy="34" r="4" fill="#ffb03a"/>
+<rect x="10" y="6" width="128" height="18" fill="#10263f"/><text x="74" y="19" font-size="10" fill="#fff" text-anchor="middle" {S}>DHAKA · LOCKDOWN</text></svg>'''
     raise ValueError(kind)
 
 def build_html(stories):
     news = [s for s in stories if s["section"] == "news"]
     leads = [s for s in news if s.get("lead")]
     row2 = [s for s in news if s["n"] in (4, 5, 6, 7)]
-    row3 = [s for s in news if s["n"] in (8, 9, 10, 11)]
+    row3 = [s for s in news if s["n"] in (8, 9, 10, 11, 12)]
     briefs = [s for s in news if not s.get("lead")]
     # NOTE: the DATE CHECK footer labels (dc_wed below) are short forms of
     # the 14 stories.json date-check titles — verified to match 1:1.
@@ -269,8 +283,8 @@ def build_html(stories):
     return f'''<!DOCTYPE html><html><head><meta charset="utf-8"><style>
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
-.page{{width:1024px;height:1024px;padding:6px 24px 2px;overflow:hidden}}
-.mast{{background:#10263f;color:#fff;display:flex;align-items:center;gap:16px;padding:2px 16px;border-bottom:4px solid #c9a227}}
+.page{{width:1024px;height:1024px;padding:2px 24px 2px;overflow:hidden}}
+.mast{{background:#10263f;color:#fff;display:flex;align-items:center;gap:16px;padding:1px 16px;border-bottom:4px solid #c9a227}}
 .cal{{background:#f6f1e5;color:#10263f;text-align:center;padding:4px 10px;flex:none}}
 .cal .m{{font-size:11px;font-weight:bold;letter-spacing:2px;color:#a33}}
 .cal .d{{font-size:22px;font-weight:bold;line-height:1;font-family:"DejaVu Serif",serif}}
@@ -280,7 +294,7 @@ body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
 .mt h1{{font-family:"DejaVu Serif",serif;font-size:32px;line-height:1.02}}
 .mt .s{{font-size:11.5px;font-style:italic;color:#cfd8e3;margin-top:1px}}
 .meta{{text-align:right;font-size:11px;font-weight:bold;letter-spacing:1px;color:#e8c85a;line-height:1.5;flex:none}}
-.row{{display:flex;gap:12px;margin-top:1px}}
+.row{{display:flex;gap:12px;margin-top:0}}
 .story{{flex:1;min-width:0}}
 .panel svg{{display:block;width:100%;height:auto}}
 .kicker{{display:flex;justify-content:space-between;font-size:10px;font-weight:bold;margin-top:2px}}
@@ -290,24 +304,24 @@ body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
 .med .head{{font-size:14px;margin-top:1px}}
 .deck{{font-size:11.5px;line-height:1.25;margin-top:1px}}
 .tag{{font-size:8px;font-weight:bold;border:1px solid #8a97a8;border-radius:2px;padding:0 3px;color:#5b6a7d;white-space:nowrap}}
-.mapbrief{{display:flex;gap:14px;margin-top:1px}}
+.mapbrief{{display:flex;gap:14px;margin-top:0}}
 .mapbox{{width:296px;flex:none}}
-.mapbox h3,.briefs h3{{font-size:11px;letter-spacing:2px;border-bottom:2px solid #10263f;padding-bottom:3px;margin-bottom:5px}}
+.mapbox h3,.briefs h3{{font-size:11px;letter-spacing:2px;border-bottom:2px solid #10263f;padding-bottom:3px;margin-bottom:3px}}
 .legend{{font-size:8.5px;color:#5b6a7d;margin-top:3px;line-height:1.4}}
 .legend b{{color:#10263f}}
 .briefs{{flex:1;min-width:0}}
-.briefs h3{{margin-bottom:5px}}
+.briefs h3{{margin-bottom:3px}}
 .bcols{{column-count:2;column-gap:16px;padding-bottom:2px}}
 .brief{{font-size:16px;line-height:1.12;margin-bottom:0;break-inside:avoid}}
 .brief .bn{{font-weight:bold;color:#10263f}}
-.timeline{{background:#10263f;color:#fff;display:flex;justify-content:space-between;padding:3px 10px;margin-top:1px;font-size:9px}}
+.timeline{{background:#10263f;color:#fff;display:flex;justify-content:space-between;padding:3px 10px;margin-top:0;font-size:9px}}
 .timeline b{{color:#e8c85a}}
 .timeline span{{white-space:nowrap}}
-.numbers{{display:flex;gap:12px;margin-top:1px;border-top:2px solid #10263f;border-bottom:2px solid #10263f;padding:1px 0}}
+.numbers{{display:flex;gap:12px;margin-top:0;border-top:2px solid #10263f;border-bottom:2px solid #10263f;padding:1px 0}}
 .num{{flex:1}}
 .num .nv{{font-family:"DejaVu Serif",serif;font-size:17px;font-weight:bold}}
 .num .nl{{font-size:9.5px;line-height:1.25;color:#444}}
-.datecheck{{margin-top:1px;border-left:4px solid #a33;padding:2px 0 2px 10px;font-size:10px;line-height:1.3}}
+.datecheck{{margin-top:0;border-left:4px solid #a33;padding:2px 0 2px 10px;font-size:10px;line-height:1.3}}
 .datecheck b{{color:#a33}}
 .foot{{margin-top:0;font-size:9.5px;color:#666;line-height:1.4}}
 #audit{{display:none}}
@@ -317,18 +331,18 @@ body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
 <div class="cal"><div class="m">NOV</div><div class="d">19</div><div class="w">THU · 2026</div></div>
 <div class="mt"><div class="k">THE DAY IN WORLD NEWS</div><h1>Thursday 19 November 2026</h1>
 <div class="s">Everything on this page happened, or was first reported, on Thursday 19 November 2026.</div></div>
-<div class="meta">44 STORIES<br>7 REGIONS<br>ONE PAGE</div></div>
+<div class="meta">45 STORIES<br>7 REGIONS<br>ONE PAGE</div></div>
 <div class="row">{''.join(lead_html(s) for s in leads[:3])}</div>
 <div class="row">{''.join(med_html(s) for s in row2)}</div>
 <div class="row">{''.join(med_html(s) for s in row3)}</div>
 <div class="mapbrief">
 <div class="mapbox"><h3>WHERE IT HAPPENED</h3>{map_svg(pins)}
-<div class="legend">Pins 1–11 mark the lead stories.<br><b>{region_line}</b></div></div>
+<div class="legend">Pins 1–12 mark the lead stories.<br><b>{region_line}</b></div></div>
 <div class="briefs"><h3>ALSO ON THURSDAY 19 NOVEMBER</h3><div class="bcols audit" id="briefs">{briefs_html}</div></div></div>
 <div class="timeline audit" id="timeline">{tl_html}</div>
 <div class="numbers audit" id="numbers">{num_html}</div>
 <div class="datecheck audit" id="datecheck">{dc_html}</div>
-<div class="foot audit" id="foot">All 44 stories happened, or were first reported, on Thursday 19 November 2026. Disputed claims are attributed, not stated as fact. Original drawings.<br>Sources: Reuters · AP · AFP · CNN · Le Monde · Al Jazeera · IMD · UN · ICJ · Sensor Tower · Forbes · TBS · BBC · Banxico</div>
+<div class="foot audit" id="foot">All 45 stories happened, or were first reported, on Thursday 19 November 2026. Disputed claims are attributed, not stated as fact. Original drawings.<br>Sources: Reuters · AP · AFP · CNN · Le Monde · Al Jazeera · IMD · UN · ICJ · Sensor Tower · Forbes · TBS · BBC · Banxico</div>
 <pre id="audit"></pre>
 <pre id="footbottom"></pre>
 </div>
@@ -369,7 +383,7 @@ def main():
     spec = {
         "masthead": "THE WORLD TODAY — Thursday 19 November 2026",
         "subline": "Everything on this page happened, or was first reported, on Thursday 19 November 2026.",
-        "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of 4 medium panels, dotted world map with numbered pins 1-11 beside 33 numbered briefs in 2 columns at 16px (briefs one line each, max 40 chars, so the brief words stay readable at 300px), UTC timeline strip, numbers strip (5 numbers), DATE CHECK footer, sources footer. Region counts sit under the map.",
+        "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of medium panels (4 + 5), dotted world map with numbered pins 1-12 beside 33 numbered briefs in 2 columns at 16px (briefs one line each, max 40 chars, so the brief words stay readable at 300px), UTC timeline strip, numbers strip (5 numbers), DATE CHECK footer, sources footer. Region counts sit under the map.",
         "proof_tags": "CONFIRMED / CLAIM / FORECAST tags on lead stories; claims attributed to sources.",
         "timeline": ["00:06 Riyadh downs Houthi drones", "00:49 Tanker hit in Hormuz (UKMTO)",
                      "02:06 Crimea bridge closed after strike", "04:27 Florida: 15 in of rain, rescues mount",
