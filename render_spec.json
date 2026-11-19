@@ -22,7 +22,7 @@
   ],
   "min_body_px": 11.5,
   "page_scroll_height": 1024,
-  "foot_bottom_px": 1005,
+  "foot_bottom_px": 1019,
   "overflow": [],
   "audit": [
     {
@@ -91,32 +91,32 @@
     },
     {
       "id": "story-8",
-      "sh": 133,
-      "ch": 133,
+      "sh": 149,
+      "ch": 149,
       "sw": 235,
       "cw": 235,
       "overflow": false
     },
     {
       "id": "story-9",
-      "sh": 133,
-      "ch": 133,
+      "sh": 149,
+      "ch": 149,
       "sw": 235,
       "cw": 235,
       "overflow": false
     },
     {
       "id": "story-10",
-      "sh": 133,
-      "ch": 133,
+      "sh": 149,
+      "ch": 149,
       "sw": 235,
       "cw": 235,
       "overflow": false
     },
     {
       "id": "story-11",
-      "sh": 133,
-      "ch": 133,
+      "sh": 149,
+      "ch": 149,
       "sw": 235,
       "cw": 235,
       "overflow": false
@@ -147,8 +147,8 @@
     },
     {
       "id": "datecheck",
-      "sh": 30,
-      "ch": 30,
+      "sh": 43,
+      "ch": 43,
       "sw": 972,
       "cw": 972,
       "overflow": false

@@ -205,7 +205,7 @@ def build_html(stories):
     row3 = [s for s in news if s["n"] in (8, 9, 10, 11)]
     briefs = [s for s in news if not s.get("lead")]
     # NOTE: the DATE CHECK footer labels (dc_wed below) are short forms of
-    # the 10 stories.json date-check titles — verified to match 1:1.
+    # the 14 stories.json date-check titles — verified to match 1:1.
     # Keep them in sync if editing.
     regions = sorted({s["region"] for s in news})
     from collections import Counter
@@ -248,24 +248,29 @@ def build_html(stories):
         ("730,000", "Rohingya who fled Myanmar in 2017"),
     ]
     num_html = "".join(f'<div class="num"><div class="nv">{v}</div><div class="nl">{l}</div></div>' for v, l in numbers)
-    # DATE CHECK footer: short labels of the 10 stories.json date-check
-    # titles — verified to name the same 10 items (all Wed 18 Nov). Keep
-    # them in sync if editing.
+    # DATE CHECK footer: short labels of the 14 stories.json date-check
+    # titles — verified to name the same 14 items (10 Wed 18 Nov + IAEA
+    # Yongbyon 18 Nov, Deutsche Bank leak 17 Nov, Vance 16 Nov, Great
+    # Unconformity study 4 Nov). Keep them in sync if editing.
     dc_wed = ["Hegseth's Venezuela deal", "Van Gogh $190.4m sale",
               "Gaza Yellow Line crossing", "Mélenchon 'could win'",
               "Australia settler sanctions", "Libya Derna seizure",
               "Voyager 1 light-day", "Jeffries 251–11",
-              "Pew Islam-by-2035", "EU €45bn Ukraine loan"]
+              "Pew Islam-by-2035", "EU €45bn Ukraine loan",
+              "IAEA Yongbyon enrichment"]
     dc_html = ("<b>DATE CHECK</b> — first reported before Thursday. "
                "Wed 18 Nov: " + " · ".join(dc_wed) + ". "
+               "Tue 17 Nov: Deutsche Bank leak. "
+               "Mon 16 Nov: Vance: no forever war. "
+               "Wed 4 Nov: Great Unconformity study. "
                "Not yet: COP31 close (Fri) · Akvan landfall (Fri) · "
                "Spain vote (29 Nov) · GTA VI on PC.")
 
     return f'''<!DOCTYPE html><html><head><meta charset="utf-8"><style>
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
-.page{{width:1024px;height:1024px;padding:10px 24px 2px;overflow:hidden}}
-.mast{{background:#10263f;color:#fff;display:flex;align-items:center;gap:16px;padding:3px 16px;border-bottom:4px solid #c9a227}}
+.page{{width:1024px;height:1024px;padding:6px 24px 2px;overflow:hidden}}
+.mast{{background:#10263f;color:#fff;display:flex;align-items:center;gap:16px;padding:2px 16px;border-bottom:4px solid #c9a227}}
 .cal{{background:#f6f1e5;color:#10263f;text-align:center;padding:4px 10px;flex:none}}
 .cal .m{{font-size:11px;font-weight:bold;letter-spacing:2px;color:#a33}}
 .cal .d{{font-size:22px;font-weight:bold;line-height:1;font-family:"DejaVu Serif",serif}}
@@ -275,7 +280,7 @@ body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
 .mt h1{{font-family:"DejaVu Serif",serif;font-size:32px;line-height:1.02}}
 .mt .s{{font-size:11.5px;font-style:italic;color:#cfd8e3;margin-top:1px}}
 .meta{{text-align:right;font-size:11px;font-weight:bold;letter-spacing:1px;color:#e8c85a;line-height:1.5;flex:none}}
-.row{{display:flex;gap:12px;margin-top:2px}}
+.row{{display:flex;gap:12px;margin-top:1px}}
 .story{{flex:1;min-width:0}}
 .panel svg{{display:block;width:100%;height:auto}}
 .kicker{{display:flex;justify-content:space-between;font-size:10px;font-weight:bold;margin-top:2px}}
@@ -285,7 +290,7 @@ body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
 .med .head{{font-size:14px;margin-top:1px}}
 .deck{{font-size:11.5px;line-height:1.25;margin-top:1px}}
 .tag{{font-size:8px;font-weight:bold;border:1px solid #8a97a8;border-radius:2px;padding:0 3px;color:#5b6a7d;white-space:nowrap}}
-.mapbrief{{display:flex;gap:14px;margin-top:2px}}
+.mapbrief{{display:flex;gap:14px;margin-top:1px}}
 .mapbox{{width:296px;flex:none}}
 .mapbox h3,.briefs h3{{font-size:11px;letter-spacing:2px;border-bottom:2px solid #10263f;padding-bottom:3px;margin-bottom:5px}}
 .legend{{font-size:8.5px;color:#5b6a7d;margin-top:3px;line-height:1.4}}
@@ -295,16 +300,16 @@ body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
 .bcols{{column-count:2;column-gap:16px;padding-bottom:2px}}
 .brief{{font-size:16px;line-height:1.12;margin-bottom:0;break-inside:avoid}}
 .brief .bn{{font-weight:bold;color:#10263f}}
-.timeline{{background:#10263f;color:#fff;display:flex;justify-content:space-between;padding:3px 10px;margin-top:2px;font-size:9px}}
+.timeline{{background:#10263f;color:#fff;display:flex;justify-content:space-between;padding:3px 10px;margin-top:1px;font-size:9px}}
 .timeline b{{color:#e8c85a}}
 .timeline span{{white-space:nowrap}}
-.numbers{{display:flex;gap:12px;margin-top:2px;border-top:2px solid #10263f;border-bottom:2px solid #10263f;padding:1px 0}}
+.numbers{{display:flex;gap:12px;margin-top:1px;border-top:2px solid #10263f;border-bottom:2px solid #10263f;padding:1px 0}}
 .num{{flex:1}}
 .num .nv{{font-family:"DejaVu Serif",serif;font-size:17px;font-weight:bold}}
 .num .nl{{font-size:9.5px;line-height:1.25;color:#444}}
-.datecheck{{margin-top:2px;border-left:4px solid #a33;padding:2px 0 2px 10px;font-size:10px;line-height:1.3}}
+.datecheck{{margin-top:1px;border-left:4px solid #a33;padding:2px 0 2px 10px;font-size:10px;line-height:1.3}}
 .datecheck b{{color:#a33}}
-.foot{{margin-top:1px;font-size:9.5px;color:#666;line-height:1.4}}
+.foot{{margin-top:0;font-size:9.5px;color:#666;line-height:1.4}}
 #audit{{display:none}}
 #footbottom{{display:none}}
 </style></head><body><div class="page audit" id="page">
@@ -323,7 +328,7 @@ body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
 <div class="timeline audit" id="timeline">{tl_html}</div>
 <div class="numbers audit" id="numbers">{num_html}</div>
 <div class="datecheck audit" id="datecheck">{dc_html}</div>
-<div class="foot audit" id="foot">All 44 stories happened, or were first reported, on Thursday 19 November 2026; claims are attributed. Original drawings.<br>Sources: Reuters · AP · AFP · CNN · Le Monde · Al Jazeera · IMD · UN · ICJ · Sensor Tower · Forbes · TBS · BBC · Banxico</div>
+<div class="foot audit" id="foot">All 44 stories happened, or were first reported, on Thursday 19 November 2026. Disputed claims are attributed, not stated as fact. Original drawings.<br>Sources: Reuters · AP · AFP · CNN · Le Monde · Al Jazeera · IMD · UN · ICJ · Sensor Tower · Forbes · TBS · BBC · Banxico</div>
 <pre id="audit"></pre>
 <pre id="footbottom"></pre>
 </div>
