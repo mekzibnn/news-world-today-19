@@ -11,18 +11,18 @@
     "04:45 Trump\u2013Xi meet in Shenzhen",
     "06:30 Three-way talks at Kylin Villa",
     "07:23 Akvan evacuations pass 80,000",
-    "09:00 ICJ reads Myanmar verdict"
+    "09:00 ICJ: Myanmar guilty"
   ],
   "numbers": [
     "$81.3bn Anthropic's record IPO, the largest ever",
     "17.07m GTA VI pre-orders (Sensor Tower)",
-    "200,000 People to evacuate before Cyclone Akvan",
+    "80,000+ Evacuated before Cyclone Akvan",
     "15.32 in Rain near Plantation, Florida",
     "730,000 Rohingya who fled Myanmar in 2017"
   ],
   "min_body_px": 11.5,
   "page_scroll_height": 1024,
-  "foot_bottom_px": 1004,
+  "foot_bottom_px": 1010,
   "overflow": [],
   "audit": [
     {
@@ -155,8 +155,8 @@
     },
     {
       "id": "datecheck",
-      "sh": 43,
-      "ch": 43,
+      "sh": 49,
+      "ch": 49,
       "sw": 972,
       "cw": 972,
       "overflow": false
@@ -170,5 +170,5 @@
       "overflow": false
     }
   ],
-  "legibility_note": "At 300px the 33 briefs are word-readable as distinct single lines (e.g. 'Shenzhen Declaration due by close', 'Banxico publishes split-cut minutes', 'Tinubu reviews state police bill'); lead heads and deck text stay legible; panels read as flat illustrations with labels intact."
+  "legibility_note": "At 300px the 33 briefs are word-readable as distinct single lines (e.g. 'Atmospheric river floods California', 'Banxico publishes split-cut minutes', 'Tinubu reviews state police bill'); lead heads and deck text stay legible; panels read as flat illustrations with labels intact."
 }

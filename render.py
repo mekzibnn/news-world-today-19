@@ -219,7 +219,7 @@ def build_html(stories):
     row3 = [s for s in news if s["n"] in (8, 9, 10, 11, 12)]
     briefs = [s for s in news if not s.get("lead")]
     # NOTE: the DATE CHECK footer labels (dc_wed below) are short forms of
-    # the 14 stories.json date-check titles — verified to match 1:1.
+    # the 28 stories.json date-check titles — verified to match 1:1.
     # Keep them in sync if editing.
     regions = sorted({s["region"] for s in news})
     from collections import Counter
@@ -251,34 +251,39 @@ def build_html(stories):
         ("04:45", "Trump–Xi in Shenzhen"),
         ("06:30", "Three-way, Kylin Villa"),
         ("07:23", "Akvan: 80,000 out"),
-        ("09:00", "ICJ Myanmar verdict"),
+        ("09:00", "ICJ: Myanmar guilty"),
     ]
     tl_html = "".join(f'<span><b>{t}</b> {x}</span>' for t, x in timeline)
     numbers = [
         ("$81.3bn", "Anthropic's record IPO, the largest ever"),
         ("17.07m", "GTA VI pre-orders (Sensor Tower)"),
-        ("200,000", "People to evacuate before Cyclone Akvan"),
+        ("80,000+", "Evacuated before Cyclone Akvan"),
         ("15.32 in", "Rain near Plantation, Florida"),
         ("730,000", "Rohingya who fled Myanmar in 2017"),
     ]
     num_html = "".join(f'<div class="num"><div class="nv">{v}</div><div class="nl">{l}</div></div>' for v, l in numbers)
-    # DATE CHECK footer: short labels of the 14 stories.json date-check
-    # titles — verified to name the same 14 items (10 Wed 18 Nov + IAEA
-    # Yongbyon 18 Nov, Deutsche Bank leak 17 Nov, Vance 16 Nov, Great
-    # Unconformity study 4 Nov). Keep them in sync if editing.
-    dc_wed = ["Hegseth's Venezuela deal", "Van Gogh $190.4m sale",
-              "Gaza Yellow Line crossing", "Mélenchon 'could win'",
-              "Australia settler sanctions", "Libya Derna seizure",
-              "Voyager 1 light-day", "Jeffries 251–11",
-              "Pew Islam-by-2035", "EU €45bn Ukraine loan",
-              "IAEA Yongbyon enrichment"]
+    # DATE CHECK footer: short labels of the 28 stories.json date-check
+    # titles — verified to name the same 28 items (18 Wed 18 Nov, 4 Tue
+    # 17 Nov, 4 earlier, 2 number corrections). Keep them in sync.
+    dc_wed = ["Hegseth Venezuela deal", "Van Gogh $190.4m sale",
+              "Gaza Yellow Line", "Mélenchon 'could win'",
+              "Australia sanctions", "Derna seizure",
+              "Voyager light-day", "Jeffries 251–11",
+              "Pew Islam 2035", "EU €45bn loan",
+              "IAEA Yongbyon", "AI cyber senators",
+              "Modi–Wales", "Duckett 133", "French ISIL jailed",
+              "Bapco refinery", "Lieu (not Lu Yuming)",
+              "Saudi all-clear"]
     dc_html = ("<b>DATE CHECK</b> — first reported before Thursday. "
                "Wed 18 Nov: " + " · ".join(dc_wed) + ". "
-               "Tue 17 Nov: Deutsche Bank leak. "
-               "Mon 16 Nov: Vance: no forever war. "
-               "Wed 4 Nov: Great Unconformity study. "
-               "Not yet: COP31 close (Fri) · Akvan landfall (Fri) · "
-               "Spain vote (29 Nov) · GTA VI on PC.")
+               "Tue 17 Nov: Deutsche Bank ($582m, not $682m) · Somalia–UAE · "
+               "Amazon $7bn India · Carney–China. "
+               "Earlier: Vance 16 Nov · Unconformity 4 Nov · "
+               "Gulf leaders 9–12 Nov · Bolivia 31 Oct. "
+               "Also corrected: Akvan 200,000 (real ~80,000+) · GTA 15.9m "
+               "(17 Nov; 18 Nov 17.07m). "
+               "Not yet: COP31 close · Akvan landfall · "
+               "Spain vote · GTA VI on PC.")
 
     return f'''<!DOCTYPE html><html><head><meta charset="utf-8"><style>
 *{{box-sizing:border-box;margin:0;padding:0}}
@@ -321,7 +326,7 @@ body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
 .num{{flex:1}}
 .num .nv{{font-family:"DejaVu Serif",serif;font-size:17px;font-weight:bold}}
 .num .nl{{font-size:9.5px;line-height:1.25;color:#444}}
-.datecheck{{margin-top:0;border-left:4px solid #a33;padding:2px 0 2px 10px;font-size:10px;line-height:1.3}}
+.datecheck{{margin-top:0;border-left:4px solid #a33;padding:2px 0 2px 10px;font-size:9px;line-height:1.25}}
 .datecheck b{{color:#a33}}
 .foot{{margin-top:0;font-size:9.5px;color:#666;line-height:1.4}}
 #audit{{display:none}}
@@ -388,10 +393,10 @@ def main():
         "timeline": ["00:06 Riyadh downs Houthi drones", "00:49 Tanker hit in Hormuz (UKMTO)",
                      "02:06 Crimea bridge closed after strike", "04:27 Florida: 15 in of rain, rescues mount",
                      "04:45 Trump–Xi meet in Shenzhen", "06:30 Three-way talks at Kylin Villa",
-                     "07:23 Akvan evacuations pass 80,000", "09:00 ICJ reads Myanmar verdict"],
+                     "07:23 Akvan evacuations pass 80,000", "09:00 ICJ: Myanmar guilty"],
         "numbers": ["$81.3bn Anthropic's record IPO, the largest ever",
                     "17.07m GTA VI pre-orders (Sensor Tower)",
-                    "200,000 People to evacuate before Cyclone Akvan",
+                    "80,000+ Evacuated before Cyclone Akvan",
                     "15.32 in Rain near Plantation, Florida",
                     "730,000 Rohingya who fled Myanmar in 2017"],
         "min_body_px": 11.5,
@@ -399,7 +404,7 @@ def main():
         "foot_bottom_px": foot_bottom,
         "overflow": overflow,
         "audit": audit,
-        "legibility_note": "At 300px the 33 briefs are word-readable as distinct single lines (e.g. 'Shenzhen Declaration due by close', 'Banxico publishes split-cut minutes', 'Tinubu reviews state police bill'); lead heads and deck text stay legible; panels read as flat illustrations with labels intact.",
+        "legibility_note": "At 300px the 33 briefs are word-readable as distinct single lines (e.g. 'Atmospheric river floods California', 'Banxico publishes split-cut minutes', 'Tinubu reviews state police bill'); lead heads and deck text stay legible; panels read as flat illustrations with labels intact.",
     }
     (HERE / "render_spec.json").write_text(json.dumps(spec, indent=2))
     size = out.stat().st_size if out.exists() else 0

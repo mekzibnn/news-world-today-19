@@ -1,6 +1,6 @@
 [
  {
-  "deck": "First trilateral of the nuclear powers; arms control and Iran on the table. Officials expect no deal.",
+  "deck": "Four-point Peace Declaration signed: UN reform, oil, ICC limits, nuclear talks. No Ukraine mention.",
   "lat": 22.54,
   "lead": true,
   "lon": 114.06,
@@ -9,8 +9,8 @@
   "proof": "CONFIRMED",
   "region": "ASIA-PACIFIC",
   "section": "news",
-  "source": "AJP · LE MONDE",
-  "title": "Trump, Xi and Putin meet in Shenzhen",
+  "source": "XINHUA \u00b7 TIMES",
+  "title": "Trump, Xi and Putin sign peace pact",
   "topic": "SUMMIT"
  },
  {
@@ -23,8 +23,8 @@
   "proof": "CONFIRMED",
   "region": "WORLD",
   "section": "news",
-  "source": "FORBES · FOX",
-  "title": "GTA VI is here — 13 years in the making",
+  "source": "FORBES \u00b7 FOX",
+  "title": "GTA VI is here \u2014 13 years in the making",
   "topic": "GAMES"
  },
  {
@@ -37,12 +37,12 @@
   "proof": "CONFIRMED",
   "region": "THE AMERICAS",
   "section": "news",
-  "source": "REUTERS · CNBC",
+  "source": "REUTERS \u00b7 CNBC",
   "title": "Anthropic debuts in the biggest IPO ever",
   "topic": "MARKETS"
  },
  {
-  "deck": "10:00 reading; first-ever state genocide verdict possible. Final.",
+  "deck": "9-6, first state ever guilty; ~10,000 killed, 730,000 fled.",
   "lat": 52.08,
   "lead": true,
   "lon": 4.31,
@@ -51,8 +51,8 @@
   "proof": "CONFIRMED",
   "region": "EUROPE",
   "section": "news",
-  "source": "LE MONDE · ICJ",
-  "title": "The Hague rules on Myanmar genocide",
+  "source": "AP \u00b7 AL JAZEERA",
+  "title": "ICJ: Myanmar committed genocide",
   "topic": "JUSTICE"
  },
  {
@@ -65,7 +65,7 @@
   "proof": "CONFIRMED",
   "region": "MIDEAST",
   "section": "news",
-  "source": "TBS · AXONEWS",
+  "source": "TBS \u00b7 AXONEWS",
   "title": "COP31 enters its final 48 hours",
   "topic": "CLIMATE"
  },
@@ -79,7 +79,7 @@
   "proof": "CONFIRMED",
   "region": "ASIA-PACIFIC",
   "section": "news",
-  "source": "IMD · TIMES",
+  "source": "IMD \u00b7 TIMES",
   "title": "Cyclone Akvan nears Odisha",
   "topic": "WEATHER"
  },
@@ -93,7 +93,7 @@
   "proof": "CONFIRMED",
   "region": "THE AMERICAS",
   "section": "news",
-  "source": "CNN · FLORIDA",
+  "source": "CNN \u00b7 FLORIDA",
   "title": "Florida floods after a foot of rain",
   "topic": "WEATHER"
  },
@@ -107,7 +107,7 @@
   "proof": "CONFIRMED",
   "region": "EUROPE",
   "section": "news",
-  "source": "AP · ANADOLU",
+  "source": "AP \u00b7 ANADOLU",
   "title": "Ukraine kept off the summit agenda",
   "topic": "SUMMIT"
  },
@@ -121,7 +121,7 @@
   "proof": "CONFIRMED",
   "region": "MIDEAST",
   "section": "news",
-  "source": "REUTERS · BBC",
+  "source": "REUTERS \u00b7 BBC",
   "title": "Iran strikes US bases in Kuwait, Bahrain",
   "topic": "WAR"
  },
@@ -135,7 +135,7 @@
   "proof": "CONFIRMED",
   "region": "MIDEAST",
   "section": "news",
-  "source": "REUTERS · SABA",
+  "source": "REUTERS \u00b7 SABA",
   "title": "Houthi missile aimed at Riyadh",
   "topic": "WAR"
  },
@@ -149,7 +149,7 @@
   "proof": "CONFIRMED",
   "region": "EUROPE",
   "section": "news",
-  "source": "H.UA · AKSYONOV",
+  "source": "H.UA \u00b7 AKSYONOV",
   "title": "Bridge to Crimea hit again overnight",
   "topic": "WAR"
  },
@@ -168,13 +168,13 @@
   "topic": "UNREST"
  },
  {
-  "deck": "APEC leaders set to adopt the joint text by consensus; trade, AI and digital rules inside.",
+  "deck": "Strongest rain 2-5am Thursday; evacuation warnings in LA burn scars; SF record rain.",
   "n": 13,
-  "proof": "FORECAST",
-  "region": "ASIA-PACIFIC",
+  "proof": "CONFIRMED",
+  "region": "THE AMERICAS",
   "section": "news",
-  "source": "APEC · ASIA TODAY",
-  "title": "Shenzhen Declaration due by close"
+  "source": "NWS \u00b7 ARCHYNEWSY",
+  "title": "Atmospheric river floods California"
  },
  {
   "deck": "China's leader offers the fund as the 21-economy summit closes in Shenzhen.",
@@ -191,7 +191,7 @@
   "proof": "CONFIRMED",
   "region": "THE AMERICAS",
   "section": "news",
-  "source": "BANXICO · REUTERS",
+  "source": "BANXICO \u00b7 REUTERS",
   "title": "Banxico publishes split-cut minutes"
  },
  {
@@ -209,7 +209,7 @@
   "proof": "CONFIRMED",
   "region": "THE AMERICAS",
   "section": "news",
-  "source": "DOJ · H.UA",
+  "source": "DOJ \u00b7 H.UA",
   "title": "US charges Russian in Palantir case"
  },
  {
@@ -245,7 +245,7 @@
   "proof": "CONFIRMED",
   "region": "THE AMERICAS",
   "section": "news",
-  "source": "UPI · STRAITS TIMES",
+  "source": "UPI \u00b7 STRAITS TIMES",
   "title": "Awa's rare contact in Brazil"
  },
  {
@@ -290,7 +290,7 @@
   "proof": "CONFIRMED",
   "region": "ASIA-PACIFIC",
   "section": "news",
-  "source": "OGRA · ROUNDUP",
+  "source": "OGRA \u00b7 ROUNDUP",
   "title": "Pakistan cuts petrol to Rs322"
  },
  {
@@ -344,7 +344,7 @@
   "proof": "CONFIRMED",
   "region": "MIDEAST",
   "section": "news",
-  "source": "IMF · KHALEEJ TIMES",
+  "source": "IMF \u00b7 KHALEEJ TIMES",
   "title": "IMF: UAE economy to grow 7.3% in 2027"
  },
  {
@@ -425,7 +425,7 @@
   "proof": "CONFIRMED",
   "region": "WORLD",
   "section": "news",
-  "source": "IEA · FRANCE 24",
+  "source": "IEA \u00b7 FRANCE 24",
   "title": "IEA: Gulf war tops energy threat list"
  },
  {
@@ -434,7 +434,7 @@
   "proof": "CONFIRMED",
   "region": "WORLD",
   "section": "news",
-  "source": "UNFPA · GUARDIAN",
+  "source": "UNFPA \u00b7 GUARDIAN",
   "title": "1 in 4 women can't refuse sex: UN"
  },
  {
@@ -443,7 +443,7 @@
   "proof": "CONFIRMED",
   "region": "WORLD",
   "section": "news",
-  "source": "UN · DW",
+  "source": "UN \u00b7 DW",
   "title": "1 in 4 children live in conflict zones"
  },
  {
@@ -452,7 +452,7 @@
   "proof": "CONFIRMED",
   "region": "WORLD",
   "section": "news",
-  "source": "UN · DUMPLING NEWS",
+  "source": "UN \u00b7 DUMPLING NEWS",
   "title": "Everyday chemicals 'a health threat'"
  },
  {
@@ -465,7 +465,7 @@
   "title": "Aid denial vs children up 16-fold"
  },
  {
-  "deck": "First reported Wednesday 18 November — left out.",
+  "deck": "First reported Wednesday 18 November \u2014 left out.",
   "n": 101,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
@@ -474,7 +474,7 @@
   "title": "Hegseth's Venezuela deal"
  },
  {
-  "deck": "First reported Wednesday 18 November — left out.",
+  "deck": "First reported Wednesday 18 November \u2014 left out.",
   "n": 102,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
@@ -483,7 +483,7 @@
   "title": "Van Gogh $190.4m sale"
  },
  {
-  "deck": "First reported Wednesday 18 November — left out.",
+  "deck": "First reported Wednesday 18 November \u2014 left out.",
   "n": 103,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
@@ -492,16 +492,16 @@
   "title": "Gaza Yellow Line crossing"
  },
  {
-  "deck": "First reported Wednesday 18 November — left out.",
+  "deck": "First reported Wednesday 18 November \u2014 left out.",
   "n": 104,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
   "section": "date-check",
   "source": "Wire reports",
-  "title": "Mélenchon 'could win'"
+  "title": "M\u00e9lenchon 'could win'"
  },
  {
-  "deck": "First reported Wednesday 18 November — left out.",
+  "deck": "First reported Wednesday 18 November \u2014 left out.",
   "n": 105,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
@@ -510,7 +510,7 @@
   "title": "Australia settler sanctions"
  },
  {
-  "deck": "First reported Wednesday 18 November — left out.",
+  "deck": "First reported Wednesday 18 November \u2014 left out.",
   "n": 106,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
@@ -519,7 +519,7 @@
   "title": "Libya Derna seizure"
  },
  {
-  "deck": "First reported Wednesday 18 November — left out.",
+  "deck": "First reported Wednesday 18 November \u2014 left out.",
   "n": 107,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
@@ -528,16 +528,16 @@
   "title": "Voyager 1 light-day"
  },
  {
-  "deck": "First reported Wednesday 18 November — left out.",
+  "deck": "First reported Wednesday 18 November \u2014 left out.",
   "n": 108,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
   "section": "date-check",
   "source": "Wire reports",
-  "title": "Jeffries 251–11"
+  "title": "Jeffries 251\u201311"
  },
  {
-  "deck": "First reported Wednesday 18 November — left out.",
+  "deck": "First reported Wednesday 18 November \u2014 left out.",
   "n": 109,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
@@ -546,48 +546,174 @@
   "title": "Pew Islam-by-2035"
  },
  {
-  "deck": "First reported Wednesday 18 November — left out.",
+  "deck": "First reported Wednesday 18 November \u2014 left out.",
   "n": 110,
   "proof": "CONFIRMED",
   "region": "DATE CHECK",
   "section": "date-check",
   "source": "Wire reports",
-  "title": "EU €45bn Ukraine loan"
+  "title": "EU \u20ac45bn Ukraine loan"
  },
  {
+  "deck": "First reported Wednesday 18 November \u2014 left out.",
   "n": 111,
-  "title": "IAEA Yongbyon enrichment",
-  "deck": "First reported Wednesday 18 November — left out.",
+  "proof": "CONFIRMED",
   "region": "DATE CHECK",
   "section": "date-check",
-  "proof": "CONFIRMED",
-  "source": "Reuters · IAEA"
+  "source": "Reuters \u00b7 IAEA",
+  "title": "IAEA Yongbyon enrichment"
  },
  {
+  "deck": "First reported Tuesday 17 November - left out. Real $582m, not $682m.",
   "n": 112,
-  "title": "Deutsche Bank leak",
-  "deck": "First reported Tuesday 17 November — left out. $582m in Epstein-linked payments flagged.",
+  "proof": "CONFIRMED",
   "region": "DATE CHECK",
   "section": "date-check",
-  "proof": "CONFIRMED",
-  "source": "FT · Reuters"
+  "source": "FT \u00b7 Reuters",
+  "title": "Deutsche Bank leak"
  },
  {
+  "deck": "First reported Monday 16 November \u2014 left out.",
   "n": 113,
-  "title": "Vance: no forever war",
-  "deck": "First reported Monday 16 November — left out.",
+  "proof": "CONFIRMED",
   "region": "DATE CHECK",
   "section": "date-check",
-  "proof": "CONFIRMED",
-  "source": "Fox News"
+  "source": "Fox News",
+  "title": "Vance: no forever war"
  },
  {
+  "deck": "Published Wednesday 4 November \u2014 left out.",
   "n": 114,
-  "title": "Great Unconformity study",
-  "deck": "Published Wednesday 4 November — left out.",
+  "proof": "CONFIRMED",
   "region": "DATE CHECK",
   "section": "date-check",
+  "source": "Nature",
+  "title": "Great Unconformity study"
+ },
+ {
+  "deck": "First reported Wednesday 18 November - left out.",
+  "n": 115,
   "proof": "CONFIRMED",
-  "source": "Nature"
+  "region": "DATE CHECK",
+  "section": "date-check",
+  "source": "Reuters \u00b7 AsiaOne",
+  "title": "Saudi all-clear in Jazan"
+ },
+ {
+  "deck": "First reported Tuesday 17 November - left out.",
+  "n": 116,
+  "proof": "CONFIRMED",
+  "region": "DATE CHECK",
+  "section": "date-check",
+  "source": "Somali Today \u00b7 Dawan",
+  "title": "Somalia accuses UAE of bases"
+ },
+ {
+  "deck": "First reported Wednesday 18 November - left out.",
+  "n": 117,
+  "proof": "CONFIRMED",
+  "region": "DATE CHECK",
+  "section": "date-check",
+  "source": "Reuters \u00b7 WNCY",
+  "title": "AI cyber senators warn"
+ },
+ {
+  "deck": "First reported 17-18 November - left out.",
+  "n": 118,
+  "proof": "CONFIRMED",
+  "region": "DATE CHECK",
+  "section": "date-check",
+  "source": "Reuters \u00b7 Al Jazeera",
+  "title": "Carney-China right deal"
+ },
+ {
+  "deck": "First reported Wednesday 18 November - left out.",
+  "n": 119,
+  "proof": "CONFIRMED",
+  "region": "DATE CHECK",
+  "section": "date-check",
+  "source": "People \u00b7 BBC",
+  "title": "Modi meets Prince and Princess of Wales"
+ },
+ {
+  "deck": "First reported Tuesday 17 November - left out.",
+  "n": 120,
+  "proof": "CONFIRMED",
+  "region": "DATE CHECK",
+  "section": "date-check",
+  "source": "About Amazon \u00b7 Hindu BusinessLine",
+  "title": "Amazon $7bn India renewables"
+ },
+ {
+  "deck": "First reported Wednesday 18 November - left out.",
+  "n": 121,
+  "proof": "CONFIRMED",
+  "region": "DATE CHECK",
+  "section": "date-check",
+  "source": "Cricinfo \u00b7 Reuters",
+  "title": "Duckett 133 seals ODI series"
+ },
+ {
+  "deck": "First reported Wednesday 18 November - left out.",
+  "n": 122,
+  "proof": "CONFIRMED",
+  "region": "DATE CHECK",
+  "section": "date-check",
+  "source": "EIN \u00b7 Barbados Gazette",
+  "title": "Six French ISIL men jailed in Iraq"
+ },
+ {
+  "deck": "First reported Wednesday 18 November - left out.",
+  "n": 123,
+  "proof": "CONFIRMED",
+  "region": "DATE CHECK",
+  "section": "date-check",
+  "source": "Reuters \u00b7 TankTerminals",
+  "title": "Bapco refinery back above 80%"
+ },
+ {
+  "deck": "First reported 9-12 November - left out.",
+  "n": 124,
+  "proof": "CONFIRMED",
+  "region": "DATE CHECK",
+  "section": "date-check",
+  "source": "Reuters \u00b7 Jareeda",
+  "title": "Gulf leaders urge Trump restraint"
+ },
+ {
+  "deck": "Wrong name: Rep. Ted Lieu, elected Wednesday 18 November - left out.",
+  "n": 125,
+  "proof": "CONFIRMED",
+  "region": "DATE CHECK",
+  "section": "date-check",
+  "source": "Asian American Foundation",
+  "title": "Lieu elected, not Lu Yuming"
+ },
+ {
+  "deck": "Decree signed Saturday 31 October, reported 1-2 November - left out.",
+  "n": 126,
+  "proof": "CONFIRMED",
+  "region": "DATE CHECK",
+  "section": "date-check",
+  "source": "Al Jazeera \u00b7 DW",
+  "title": "Bolivia El Nino emergency"
+ },
+ {
+  "deck": "Wrong number: ~80,000+ evacuated by 19 Nov morning; 200,000 was the 17 Nov target.",
+  "n": 127,
+  "proof": "CONFIRMED",
+  "region": "DATE CHECK",
+  "section": "date-check",
+  "source": "Times Reading \u00b7 Hindu BusinessLine",
+  "title": "Akvan 200,000 evacuated"
+ },
+ {
+  "deck": "Stale number: 15.9m is the 17 Nov reading; 18 Nov reading is 17.07m.",
+  "n": 128,
+  "proof": "CONFIRMED",
+  "region": "DATE CHECK",
+  "section": "date-check",
+  "source": "Reuters \u00b7 Forbes",
+  "title": "GTA 15.9m pre-orders"
  }
 ]
